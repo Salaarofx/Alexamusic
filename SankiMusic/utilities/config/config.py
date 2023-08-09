@@ -15,18 +15,18 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 MONGO_DB_URL = getenv("MONGO_DB_URL", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐒ʌnƙɩ ✘ 𝐌ʋsɩƈ")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5336023580").split()))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐀𝐥𝐞𝐱𝐚 𝐩𝐫𝐨 𝐦𝐮𝐬𝐢𝐜")
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5865223244").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Kaal-xD/SankiXMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Salaarofx/Alexamusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "kaal")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Sanki_Owners")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Sanki_World")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/secret_faction")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/romeo_feelings")
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
-SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "1440"))
+SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "1440"))
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "5400"))
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
@@ -64,20 +64,20 @@ clean = {}
 autoclean = []
 ############################
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/83cfcc36ef441e516d28f.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://te.legra.ph/file/6abc32c3858f205434cd5.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/a4292b4ca9c3c130631e1.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/a4292b4ca9c3c130631e1.jpg")
 
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-GLOBAL_IMG_URL = "https://te.legra.ph/file/6abc32c3858f205434cd5.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/6abc32c3858f205434cd5.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/a4292b4ca9c3c130631e1.jpg"
+GLOBAL_IMG_URL = "https://graph.org/file/a4292b4ca9c3c130631e1.jpg"
+STATS_IMG_URL = "https://graph.org/file/a4292b4ca9c3c130631e1.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/a4292b4ca9c3c130631e1.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/a4292b4ca9c3c130631e1.jpg"
+STREAM_IMG_URL = "https://graph.org/file/a4292b4ca9c3c130631e1.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/a4292b4ca9c3c130631e1.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/a4292b4ca9c3c130631e1.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/a4292b4ca9c3c130631e1.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/a4292b4ca9c3c130631e1.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/a4292b4ca9c3c130631e1.jpg"
 
 
 def time_to_seconds(time):
